@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inventory Management System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(to right, #ff7e5f, #feb47b); /* Example gradient */
+        background-size: cover;
+    }
+
+    header {
+      padding: 1.5rem 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.8); /* Slight background to separate header */
+    }
+
+    header h1 {
+      font-weight: 600;
+      font-size: 1.4rem;
+      color: #333;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+    }
+
+    nav a.login-btn {
+      padding: 0.5rem 1rem;
+      background: linear-gradient(90deg, #7b2ff7, #f107a3);
+      color: white;
+      border-radius: 25px;
+    }
+
+    .hero {
+        
+        display: flex;
+        background: linear-gradient(to right, rgba(255, 126, 95, 0.7), rgba(254, 180, 123, 0.7)); 
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4rem 3rem;
+        flex-wrap: wrap;
+        background-color: rgba(255, 255, 255, 0.85); /* Optional: overlay to make text readable */
+        margin: 2rem;
+        border-radius: 15px;
+    }
+
+    .hero-text {
+      max-width: 800px;
+    }
+
+    .hero-text h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #2d2d2d;
+      margin-bottom: 1rem;
+    }
+
+    .hero-text p {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 2rem;
+    }
+
+    .hero-text a {
+      padding: 0.75rem 1.5rem;
+      background: linear-gradient(to right, #7b2ff7, #f107a3);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: 500;
+    }
+
+    .hero-image img {
+      max-width: 500px;
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-image {
+        margin-top: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About us</a>
+      <a href="#">Work</a>
+      <a href="#">Info</a>
+      <a href="../login/index.php" class="login-btn">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Inventory Management System</h2>
+      <p>Easily manage your products, stock, suppliers, and orders — all in one place. It helps streamline your business operations by keeping track of product inventory, monitoring stock levels, managing supplier and customer data, and tracking recent orders.  Stay organized and efficient with our intuitive dashboard.</p>
+      <a href="../login/index.php">Go to Login</a>
+    </div>
+    <div class="hero-image">
+        
+      <img src="img2.png" alt="Inventory Illustration" />
+    </div>
+  </section>
+
+</body>
+</html>
